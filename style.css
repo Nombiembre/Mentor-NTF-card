@@ -125,13 +125,13 @@ body {
 .main-card {
   --padding: 1.5em;
   --max-width: 375px;
-  --gap: calc(var(--padding)/1.3);
+  --gap: calc(var(--padding)/ 1.4);
 
   background-color: var(--clr-accent-700);
   padding: var(--padding);
   border-radius: var(--radius);
   display: grid;
-  gap: var(--padding);
+  gap: var(--gap);
   width: min(var(--max-width), (100% - var(--padding)));
   margin-inline: auto;
   box-shadow: var(--shadow-elevation-medium);
@@ -194,13 +194,13 @@ body {
 .cripto::before{
   content: url(images/icon-ethereum.svg);
   position: relative;
-  top: .3em;
+  top: .1em;
 }
 
 .days::before{
   content: url(images/icon-clock.svg);
   position: relative;
-  top: .2em;
+  top: .1em;
 }
 
 .pp {
